@@ -5,4 +5,4 @@ main:
 	gcc -o final final.c gfx5.o -lX11 -lm
 
 clean:
-	rm -rf final *.o
+	rm -f final *.o
